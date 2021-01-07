@@ -20,5 +20,25 @@ if (!function_exists('dd')) {
         echo $return;
     }
 }
-
+if (!function_exists('config')) {
+    /**
+     * huoqu
+     * @param $key
+     */
+    function config($key){
+       $config=include  __DIR__."/../Config/swocloud.php";
+        if($key){
+           $keyArray=explode('.',$key);
+           foreach ($keyArray as $key=>$value){
+                   if(isset($config[$value])){
+                        if($key==(count($keyArray)-1)){
+                            return $config[$value];
+                        }
+                       $config=$config[$value];
+                   }
+           }
+       }
+       return false;
+    }
+}
 

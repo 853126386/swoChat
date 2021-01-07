@@ -17,7 +17,7 @@ class Route extends Server {
 
     public function onWorkerStart(SwooleServer $server, int $workerId){
         $this->redis = new Redis;
-        $this->redis->pconnect("172.19.0.3", 6379);
+        $this->redis->pconnect(config('redis.host'), config('redis.port'));
     }
 
     /**

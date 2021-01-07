@@ -38,6 +38,7 @@ abstract class Server{
      */
     protected $config = [
         'task_worker_num' => 0,
+        'worker_num' => 1,
     ];
 
 
