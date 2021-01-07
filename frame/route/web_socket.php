@@ -5,7 +5,7 @@ open
 message
 close
 */
-use SwoStar\Routes\Route;
+use SwoPolaris\Routes\Route;
 
 
 Route::wsController('index', 'IndexController');

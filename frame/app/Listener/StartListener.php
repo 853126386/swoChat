@@ -1,7 +1,7 @@
 <?php
 namespace App\Listener;
 
-use SwoStar\Event\Listener;
+use SwoPolaris\Event\Listener;
 class StartListener extends Listener{
 
     protected $name='start';

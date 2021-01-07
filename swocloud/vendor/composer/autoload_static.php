@@ -7,14 +7,12 @@ namespace Composer\Autoload;
 class ComposerStaticInit7f07fac7fe47775e50a8169314b403b1
 {
     public static $files = array (
-        '8584aed13f8266584d811a73b79858eb' => __DIR__ . '/..' . '/aaronlee/swostar/src/Supper/Helper.php',
-        '32b00ba8c1c26eb87831d4904c8514d0' => __DIR__ . '/..' . '/aaronlee/swostar/src/Supper/Helper.php',
+        'ccd50b0b209d3eb0eabc078609e8d3a3' => __DIR__ . '/../..' . '/src/Supper/Helper.php',
     );
 
     public static $prefixLengthsPsr4 = array (
         'S' => 
         array (
-            'SwoStar\\' => 8,
             'SwoCloud\\' => 9,
         ),
         'F' => 
@@ -24,10 +22,6 @@ class ComposerStaticInit7f07fac7fe47775e50a8169314b403b1
     );
 
     public static $prefixDirsPsr4 = array (
-        'SwoStar\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/aaronlee/swostar/src',
-        ),
         'SwoCloud\\' => 
         array (
             0 => __DIR__ . '/../..' . '/src',

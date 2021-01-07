@@ -7,7 +7,6 @@
         }
     ],
     "require": {
-        "aaronlee/swostar": "dev-master",
         "firebase/php-jwt": "^5.2"
     },
     "autoload": {
@@ -15,14 +14,7 @@
             "SwoCloud\\": "src"
         },
         "files": [
-            "vendor/aaronlee/swostar/src/Supper/Helper.php"
+            "src/Supper/Helper.php"
         ]
-
-    },
-    "repositories": {
-        "local": {
-            "type": "path",
-            "url": "../SwoStar"
-        }
     }
 }

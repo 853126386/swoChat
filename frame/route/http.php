@@ -1,5 +1,5 @@
 <?php
-use SwoStar\Routes\Route;
+use SwoPolaris\Routes\Route;
 
 Route::get('index',function (){
     return 'this is route index () tests';

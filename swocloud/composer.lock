@@ -4,35 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "9a6f2cc34b315e9bb21ae75ee0149436",
+    "content-hash": "26e825882d0d9edf5685ce701f9f81a6",
     "packages": [
-        {
-            "name": "aaronlee/swostar",
-            "version": "dev-master",
-            "dist": {
-                "type": "path",
-                "url": "../SwoStar",
-                "reference": "44a5884c5b88424f594cc675aa1db970b5ff82ae"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "SwoStar\\": "src"
-                },
-                "files": [
-                    "src/Supper/Helper.php"
-                ]
-            },
-            "authors": [
-                {
-                    "name": "aaron",
-                    "email": "853126386@qq.com"
-                }
-            ],
-            "transport-options": {
-                "relative": true
-            }
-        },
         {
             "name": "firebase/php-jwt",
             "version": "v5.2.0",
@@ -45,13 +18,7 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/firebase/php-jwt/zipball/feb0e820b8436873675fd3aca04f3728eb2185cb",
                 "reference": "feb0e820b8436873675fd3aca04f3728eb2185cb",
-                "shasum": "",
-                "mirrors": [
-                    {
-                        "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
-                        "preferred": true
-                    }
-                ]
+                "shasum": ""
             },
             "require": {
                 "php": ">=5.3.0"
@@ -93,9 +60,7 @@
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": {
-        "aaronlee/swostar": 20
-    },
+    "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],

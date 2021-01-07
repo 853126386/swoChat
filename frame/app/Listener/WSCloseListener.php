@@ -2,9 +2,9 @@
 namespace app\Listener;
 
 use Firebase\JWT\JWT;
-use SwoStar\Event\Listener;
-use SwoStar\Server\Websocket\WebsocketServer;
-use SwoStar\Server\Websocket\Connections;
+use SwoPolaris\Event\Listener;
+use SwoPolaris\Server\Websocket\WebsocketServer;
+use SwoPolaris\Server\Websocket\Connections;
 class WSCloseListener extends Listener{
 
 

@@ -6,7 +6,6 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
-    'SwoStar\\' => array($vendorDir . '/aaronlee/swostar/src'),
     'SwoCloud\\' => array($baseDir . '/src'),
     'Firebase\\JWT\\' => array($vendorDir . '/firebase/php-jwt/src'),
 );

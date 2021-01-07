@@ -6,6 +6,5 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
-    '8584aed13f8266584d811a73b79858eb' => $vendorDir . '/aaronlee/swostar/src/Supper/Helper.php',
-    '32b00ba8c1c26eb87831d4904c8514d0' => $vendorDir . '/aaronlee/swostar/src/Supper/Helper.php',
+    'ccd50b0b209d3eb0eabc078609e8d3a3' => $baseDir . '/src/Supper/Helper.php',
 );

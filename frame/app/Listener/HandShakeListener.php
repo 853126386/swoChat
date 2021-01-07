@@ -2,8 +2,8 @@
 namespace App\Listener;
 
 use Firebase\JWT\JWT;
-use SwoStar\Event\Listener;
-use SwoStar\Server\Websocket\WebsocketServer  ;
+use SwoPolaris\Event\Listener;
+use SwoPolaris\Server\Websocket\WebsocketServer  ;
 use Swoole\Http\Request;
 use Swoole\Http\Response ;
 class HandShakeListener extends Listener{

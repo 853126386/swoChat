@@ -2,7 +2,6 @@
 namespace SwoCloud;
 
 use Swoole\Coroutine\Http\Client;
-use SwoStar\Console\Input;
 use Swoole\Server as SwooleServer;
 use Swoole\WebSocket\Server as SwooleWebSocketServer;
 use Swoole\Http\Request as SwooleRequest;
@@ -18,7 +17,7 @@ class Route extends Server {
 
     public function onWorkerStart(SwooleServer $server, int $workerId){
         $this->redis = new Redis;
-        $this->redis->pconnect("172.19.0.4", 6379);
+        $this->redis->pconnect("172.19.0.3", 6379);
     }
 
     /**
