@@ -1,0 +1,25 @@
+{
+    "name": "aaronlee/SwoStar-fram",
+    "authors": [
+        {
+            "name": "aaron",
+            "email": "853126386@qq.com"
+        }
+    ],
+    "require": {
+        "firebase/php-jwt": "^5.2",
+        "aaronlee/swoPolaris": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+
+    },
+    "repositories": {
+        "local": {
+            "type": "path",
+            "url": "../swoPolaris"
+        }
+    }
+}

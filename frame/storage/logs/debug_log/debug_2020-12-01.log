@@ -1,0 +1,57 @@
+[2020-12-01 15:29:39]Array
+(
+    [http] => Array
+        (
+            [host] => 0.0.0.0
+            [port] => 9002
+            [swoole] => Array
+                (
+                    [worker_num] => 4
+                    [task_num] => 4
+                )
+
+            [tcpable] => 1
+            [rpc] => Array
+                (
+                    [host] => 127.0.0.1
+                    [port] => 8000
+                    [swoole] => Array
+                        (
+                            [worker_num] => 1
+                        )
+
+                )
+
+        )
+
+    [
+    ws] => Array
+        (
+            [is_handshake] => 1
+        )
+
+    [route] => Array
+        (
+            [server] => Array
+                (
+                    [port] => 9003
+                    [host] => 127.0.0.1
+                )
+
+            [jwt] => Array
+                (
+                    [key] => swocloud
+                    [alg] => Array
+                        (
+                            [0] => HS256
+                        )
+
+                )
+
+        )
+
+)
+
+[2020-12-01 15:30:59]msg=dwadwa
+[2020-12-01 15:32:34]msg=qqqqq
+[2020-12-01 15:36:02]msg=11111

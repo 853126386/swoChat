@@ -1,0 +1,19 @@
+{
+    "name": "aaronlee/swostar",
+    "type": "library",
+    "authors": [
+        {
+            "name": "aaron",
+            "email": "853126386@qq.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "SwoStar\\": "src"
+        },
+        "files":[
+            "src/Supper/Helper.php"
+        ]
+    }
+}

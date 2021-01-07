@@ -1,0 +1,28 @@
+{
+    "name": "aaronlee/swocloud",
+    "authors": [
+        {
+            "name": "Your Name",
+            "email": "aaronlee@example.com"
+        }
+    ],
+    "require": {
+        "aaronlee/swostar": "dev-master",
+        "firebase/php-jwt": "^5.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "SwoCloud\\": "src"
+        },
+        "files": [
+            "vendor/aaronlee/swostar/src/Supper/Helper.php"
+        ]
+
+    },
+    "repositories": {
+        "local": {
+            "type": "path",
+            "url": "../SwoStar"
+        }
+    }
+}
